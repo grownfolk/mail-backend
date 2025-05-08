@@ -11,7 +11,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "ethers": "^6.13.2",
-    "ipfs-http-client": "^60.0.1",
+    "ipfs-http-client": "^56.0.3",
     "nodemailer": "^6.9.1",
     "@pushprotocol/restapi": "^1.2.2"
   },
