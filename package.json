@@ -14,7 +14,7 @@
     "ipfs-http-client": "^60.0.1",
     "nodemailer": "^6.9.1",
     "@pushprotocol/restapi": "^1.9.0"
-  }
+  },
   "engines": {
     "node": "18.x"
   }
