@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: grownfolk-mail-backend
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: PRIVATE_KEY
+        sync: false
+      - key: INFURA_PROJECT_ID
+        sync: false
+      - key: INFURA_PROJECT_SECRET
+        sync: false
