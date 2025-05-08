@@ -9,6 +9,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('GrownFolk Mail Backend is running.');
+});
+
 app.use('/api/mail', mailRoutes);
 
 const PORT = process.env.PORT || 5000;
